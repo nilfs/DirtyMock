@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14EFF44D164630760053A4A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFF44C164630760053A4A5 /* Foundation.framework */; };
+		14EFF452164630760053A4A5 /* DirtyMock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14EFF451164630760053A4A5 /* DirtyMock.h */; };
+		14EFF454164630760053A4A5 /* DirtyMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF453164630760053A4A5 /* DirtyMock.m */; };
+		14EFF45C164630770053A4A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFF45B164630770053A4A5 /* SenTestingKit.framework */; };
+		14EFF45E164630770053A4A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFF45D164630770053A4A5 /* UIKit.framework */; };
+		14EFF45F164630770053A4A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFF44C164630760053A4A5 /* Foundation.framework */; };
+		14EFF462164630770053A4A5 /* libDirtyMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFF449164630760053A4A5 /* libDirtyMock.a */; };
+		14EFF468164630770053A4A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14EFF466164630770053A4A5 /* InfoPlist.strings */; };
+		14EFF46B164630770053A4A5 /* DirtyMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF46A164630770053A4A5 /* DirtyMockTests.m */; };
+		14EFF476164630D70053A4A5 /* DirtyMockMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF475164630D70053A4A5 /* DirtyMockMethod.m */; };
+		14EFF477164630D70053A4A5 /* DirtyMockMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF475164630D70053A4A5 /* DirtyMockMethod.m */; };
+		14EFF47A16463AA40053A4A5 /* DirtyMockCLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF47916463AA40053A4A5 /* DirtyMockCLLocationManager.m */; };
+		14EFF47B16463AA40053A4A5 /* DirtyMockCLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF47916463AA40053A4A5 /* DirtyMockCLLocationManager.m */; };
+		14EFF4801646407A0053A4A5 /* DirtyMockCLLocationManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EFF47F1646407A0053A4A5 /* DirtyMockCLLocationManagerTest.m */; };
+		14EFF482164648880053A4A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EFF481164648880053A4A5 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14EFF460164630770053A4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14EFF440164630760053A4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14EFF448164630760053A4A5;
+			remoteInfo = DirtyMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14EFF447164630760053A4A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				14EFF452164630760053A4A5 /* DirtyMock.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14EFF449164630760053A4A5 /* libDirtyMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDirtyMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EFF44C164630760053A4A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14EFF450164630760053A4A5 /* DirtyMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirtyMock-Prefix.pch"; sourceTree = "<group>"; };
+		14EFF451164630760053A4A5 /* DirtyMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirtyMock.h; sourceTree = "<group>"; };
+		14EFF453164630760053A4A5 /* DirtyMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirtyMock.m; sourceTree = "<group>"; };
+		14EFF45A164630770053A4A5 /* DirtyMockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtyMockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EFF45B164630770053A4A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		14EFF45D164630770053A4A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		14EFF465164630770053A4A5 /* DirtyMockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirtyMockTests-Info.plist"; sourceTree = "<group>"; };
+		14EFF467164630770053A4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14EFF469164630770053A4A5 /* DirtyMockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirtyMockTests.h; sourceTree = "<group>"; };
+		14EFF46A164630770053A4A5 /* DirtyMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirtyMockTests.m; sourceTree = "<group>"; };
+		14EFF474164630D70053A4A5 /* DirtyMockMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirtyMockMethod.h; sourceTree = "<group>"; };
+		14EFF475164630D70053A4A5 /* DirtyMockMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirtyMockMethod.m; sourceTree = "<group>"; };
+		14EFF47816463AA40053A4A5 /* DirtyMockCLLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirtyMockCLLocationManager.h; path = DirtyMock/mocks/corelocation/DirtyMockCLLocationManager.h; sourceTree = SOURCE_ROOT; };
+		14EFF47916463AA40053A4A5 /* DirtyMockCLLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirtyMockCLLocationManager.m; path = DirtyMock/mocks/corelocation/DirtyMockCLLocationManager.m; sourceTree = SOURCE_ROOT; };
+		14EFF47E1646407A0053A4A5 /* DirtyMockCLLocationManagerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirtyMockCLLocationManagerTest.h; sourceTree = "<group>"; };
+		14EFF47F1646407A0053A4A5 /* DirtyMockCLLocationManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirtyMockCLLocationManagerTest.m; sourceTree = "<group>"; };
+		14EFF481164648880053A4A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14EFF446164630760053A4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EFF44D164630760053A4A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14EFF456164630760053A4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EFF482164648880053A4A5 /* CoreLocation.framework in Frameworks */,
+				14EFF45C164630770053A4A5 /* SenTestingKit.framework in Frameworks */,
+				14EFF45E164630770053A4A5 /* UIKit.framework in Frameworks */,
+				14EFF45F164630770053A4A5 /* Foundation.framework in Frameworks */,
+				14EFF462164630770053A4A5 /* libDirtyMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EFF43E164630760053A4A5 = {
+			isa = PBXGroup;
+			children = (
+				14EFF481164648880053A4A5 /* CoreLocation.framework */,
+				14EFF44E164630760053A4A5 /* DirtyMock */,
+				14EFF463164630770053A4A5 /* DirtyMockTests */,
+				14EFF44B164630760053A4A5 /* Frameworks */,
+				14EFF44A164630760053A4A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14EFF44A164630760053A4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF449164630760053A4A5 /* libDirtyMock.a */,
+				14EFF45A164630770053A4A5 /* DirtyMockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14EFF44B164630760053A4A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF44C164630760053A4A5 /* Foundation.framework */,
+				14EFF45B164630770053A4A5 /* SenTestingKit.framework */,
+				14EFF45D164630770053A4A5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14EFF44E164630760053A4A5 /* DirtyMock */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF47C16463AD70053A4A5 /* mocks */,
+				14EFF451164630760053A4A5 /* DirtyMock.h */,
+				14EFF453164630760053A4A5 /* DirtyMock.m */,
+				14EFF44F164630760053A4A5 /* Supporting Files */,
+				14EFF474164630D70053A4A5 /* DirtyMockMethod.h */,
+				14EFF475164630D70053A4A5 /* DirtyMockMethod.m */,
+			);
+			path = DirtyMock;
+			sourceTree = "<group>";
+		};
+		14EFF44F164630760053A4A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF450164630760053A4A5 /* DirtyMock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14EFF463164630770053A4A5 /* DirtyMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF469164630770053A4A5 /* DirtyMockTests.h */,
+				14EFF46A164630770053A4A5 /* DirtyMockTests.m */,
+				14EFF464164630770053A4A5 /* Supporting Files */,
+				14EFF47E1646407A0053A4A5 /* DirtyMockCLLocationManagerTest.h */,
+				14EFF47F1646407A0053A4A5 /* DirtyMockCLLocationManagerTest.m */,
+			);
+			path = DirtyMockTests;
+			sourceTree = "<group>";
+		};
+		14EFF464164630770053A4A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF465164630770053A4A5 /* DirtyMockTests-Info.plist */,
+				14EFF466164630770053A4A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14EFF47C16463AD70053A4A5 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF47D16463ADE0053A4A5 /* corelocation */,
+			);
+			name = mocks;
+			sourceTree = "<group>";
+		};
+		14EFF47D16463ADE0053A4A5 /* corelocation */ = {
+			isa = PBXGroup;
+			children = (
+				14EFF47816463AA40053A4A5 /* DirtyMockCLLocationManager.h */,
+				14EFF47916463AA40053A4A5 /* DirtyMockCLLocationManager.m */,
+			);
+			name = corelocation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14EFF448164630760053A4A5 /* DirtyMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14EFF46E164630770053A4A5 /* Build configuration list for PBXNativeTarget "DirtyMock" */;
+			buildPhases = (
+				14EFF445164630760053A4A5 /* Sources */,
+				14EFF446164630760053A4A5 /* Frameworks */,
+				14EFF447164630760053A4A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirtyMock;
+			productName = DirtyMock;
+			productReference = 14EFF449164630760053A4A5 /* libDirtyMock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		14EFF459164630760053A4A5 /* DirtyMockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14EFF471164630770053A4A5 /* Build configuration list for PBXNativeTarget "DirtyMockTests" */;
+			buildPhases = (
+				14EFF455164630760053A4A5 /* Sources */,
+				14EFF456164630760053A4A5 /* Frameworks */,
+				14EFF457164630760053A4A5 /* Resources */,
+				14EFF458164630760053A4A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14EFF461164630770053A4A5 /* PBXTargetDependency */,
+			);
+			name = DirtyMockTests;
+			productName = DirtyMockTests;
+			productReference = 14EFF45A164630770053A4A5 /* DirtyMockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14EFF440164630760053A4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = nilfs_dev;
+			};
+			buildConfigurationList = 14EFF443164630760053A4A5 /* Build configuration list for PBXProject "DirtyMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14EFF43E164630760053A4A5;
+			productRefGroup = 14EFF44A164630760053A4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14EFF448164630760053A4A5 /* DirtyMock */,
+				14EFF459164630760053A4A5 /* DirtyMockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14EFF457164630760053A4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EFF468164630770053A4A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EFF458164630760053A4A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14EFF445164630760053A4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EFF454164630760053A4A5 /* DirtyMock.m in Sources */,
+				14EFF476164630D70053A4A5 /* DirtyMockMethod.m in Sources */,
+				14EFF47A16463AA40053A4A5 /* DirtyMockCLLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14EFF455164630760053A4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EFF46B164630770053A4A5 /* DirtyMockTests.m in Sources */,
+				14EFF477164630D70053A4A5 /* DirtyMockMethod.m in Sources */,
+				14EFF47B16463AA40053A4A5 /* DirtyMockCLLocationManager.m in Sources */,
+				14EFF4801646407A0053A4A5 /* DirtyMockCLLocationManagerTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14EFF461164630770053A4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14EFF448164630760053A4A5 /* DirtyMock */;
+			targetProxy = 14EFF460164630770053A4A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14EFF466164630770053A4A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14EFF467164630770053A4A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14EFF46C164630770053A4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14EFF46D164630770053A4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14EFF46F164630770053A4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DirtyMock.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirtyMock/DirtyMock-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14EFF470164630770053A4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DirtyMock.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirtyMock/DirtyMock-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14EFF472164630770053A4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirtyMock/DirtyMock-Prefix.pch";
+				INFOPLIST_FILE = "DirtyMockTests/DirtyMockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		14EFF473164630770053A4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirtyMock/DirtyMock-Prefix.pch";
+				INFOPLIST_FILE = "DirtyMockTests/DirtyMockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14EFF443164630760053A4A5 /* Build configuration list for PBXProject "DirtyMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EFF46C164630770053A4A5 /* Debug */,
+				14EFF46D164630770053A4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14EFF46E164630770053A4A5 /* Build configuration list for PBXNativeTarget "DirtyMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EFF46F164630770053A4A5 /* Debug */,
+				14EFF470164630770053A4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14EFF471164630770053A4A5 /* Build configuration list for PBXNativeTarget "DirtyMockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EFF472164630770053A4A5 /* Debug */,
+				14EFF473164630770053A4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14EFF440164630760053A4A5 /* Project object */;
+}
