@@ -14,7 +14,9 @@
 +(DirtyMockCLLocationManager*)mock;
 
 -(void)switchMock;
+-(void)switchOriginal;
 -(void)alwaysUpdateLocation:(CLLocation*)location;
+-(void)updateLocation:(CLLocation*)location;
 
 @property BOOL locationServicesEnabled;
 

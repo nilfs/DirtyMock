@@ -14,6 +14,7 @@
 @property DirtyMock* dirtyMock;
 @property BOOL isUpdatingLocation;
 @property CLLocation* updateLocation;
+@property id orgSelf;
 @end
 
 @implementation DirtyMockCLLocationManager
@@ -34,8 +35,7 @@
         [_dirtyMock mockMethod:@selector(startUpdatingLocation) :^(id self, SEL _cmd){
             _isUpdatingLocation = YES;
             
-            id<CLLocationManagerDelegate> delegate = ((CLLocationManager*)self).delegate;            
-            [delegate locationManager:self didUpdateToLocation:_updateLocation fromLocation:_updateLocation];
+            _orgSelf = self;
         }];
 
         [_dirtyMock mockMethod:@selector(stopUpdatingLocation) :^(){
@@ -78,8 +78,19 @@
     [_dirtyMock switchMockAllMethod];
 }
 
+-(void)switchOriginal{
+    [_dirtyMock switchOriginalAllMethod];
+}
+
 -(void)alwaysUpdateLocation:(CLLocation *)location{
     _updateLocation = location;
+}
+
+-(void)updateLocation:(CLLocation *)location{
+    assert(_orgSelf != nil);
+    
+    id<CLLocationManagerDelegate> delegate = ((CLLocationManager*)_orgSelf).delegate;
+    [delegate locationManager:_orgSelf didUpdateToLocation:location fromLocation:location];
 }
 
 @end
